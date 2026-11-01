@@ -4,5 +4,18 @@
   "createdAt": "2026-11-01T14:46:43.101Z",
   "filename": "79e1783e-ce19-4a44-ab2d-a4935afd9188.json",
   "geminiStarted": false,
-  "messages": []
+  "messages": [
+    {
+      "id": "d8607193-2180-4f2e-a8be-c3c1cee1f001",
+      "role": "user",
+      "content": "Connect my existing private GitHub repository to this cloud workspace.\n\nRepository: soulahmd/jarvis-ai-assistant\nBranch: main\n\nI want to continue working on my existing JARVIS project, not create a new project.\n\nPlease:\n\n1. Import/clone the existing repository.\n2. Preserve the current code and project structure.\n3. Do not initialize a new project.\n4. Do not overwrite or delete existing files.\n5. Confirm when the repository is connected and show the project files.",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-01T14:47:52.136Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
