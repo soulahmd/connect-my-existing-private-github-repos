@@ -28,6 +28,30 @@
       "created_at": "2026-11-01T14:48:48.896Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "f8dd9c0b-c6d2-4ca6-bb15-daf914e82990",
+      "role": "user",
+      "content": "git push origin HEAD",
+      "status": "cancelled",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-01T14:51:53.033Z",
+      "sender": "ios",
+      "is_cancelled": true
+    },
+    {
+      "id": "ddfcda3b-1d61-4e7f-b1c9-ead220ccf7b1",
+      "role": "user",
+      "content": "git push origin HEAD",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-01T14:52:07.365Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
